@@ -1,0 +1,22 @@
+.top-navbar {
+    margin: 10px 0;
+    gap: 20px;
+    /* width: 100%; */
+}
+
+@media (min-width: 576px) {
+    .top-navbar {
+        justify-content: space-between;
+        margin: 10px 50px;
+    }
+
+}
+@media (max-width: 576px) {
+    .icons div {
+        width: 30px !important;
+        height: 30px !important;
+
+    }
+
+
+}

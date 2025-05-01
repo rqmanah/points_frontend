@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+body {
+  font-family: "Cairo", sans-serif !important;
+  background-color: #fff !important;
+}
+
+/* .height-screen {
+  height: 100vh;
+} */
+/* .background-image-yellow {
+  background-image: url("./assets//background.png");
+  background-repeat: no-repeat;
+  background-position: 10px 480px;
+} */
+* {
+  font-family: "Cairo", sans-serif !important;
+
+}
+
+.custom-card {
+  min-width: 400px;
+  max-width: 100%;
+  height: 461px;
+  border-radius: 20px;
+  border: 0px !important;
+  font-family: "Cairo", sans-serif;
+}
+
+.custom-card-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 59.97px;
+  font-family: "Cairo", sans-serif;
+}
+
+.primary-color {
+  color: #0077b6;
+}
+
+.primary-bgColor {
+  background-color: #0077b6 !important;
+}
+
+.font-size-32 {
+  font-size: 32px;
+}
+
+.font-size-33 {
+  font-size: 33px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.custom-card-input {
+  width: 100%;
+  height: 70px;
+  border-radius: 12px;
+  background-color: #eef1f5;
+  border: 0px !important;
+}
+
+.custom-card-button {
+  width: 100%;
+  height: 70px;
+  border-radius: 12px;
+
+  color: white;
+  border: 0px !important;
+}
+
+.btn-blue {
+  background-color: #0077b6;
+}
+
+.btn-green {
+  background-color: #a7c957;
+}
+
+.margin-top-82 {
+  margin-top: 82px;
+}
+
+.link-color {
+  color: #0043c5;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.lh-36 {
+  line-height: 36px;
+}
+
+.sidebar-bg {
+  background-color: #ffffff !important;
+}
+
+.custom-heading {
+  position: relative;
+  width: 280px;
+  height: 46px;
+  border: 1px solid #a7c957;
+  border-radius: 23px;
+  font-family: "Cairo", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0px 10px 0px 0px;
+}
+
+.custom-heading-image {
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  border: 1px solid #a7c957;
+  left: 250px;
+  border-radius: 50%;
+  top: -14px;
+  background-color: #a7c957;
+}
+
+.custom-heading-show {
+  position: relative;
+  width: 250px;
+  height: 46px;
+  border: 1px solid #ffb601;
+  border-radius: 23px;
+  font-family: "Cairo", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0px 10px 0px 0px;
+}
+
+.custom-heading-show-image {
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  border: 1px solid #ffb601;
+  left: 218px;
+  border-radius: 50%;
+  top: -14px;
+  background-color: #ffb601;
+}
+
+.ffcairo {
+  font-family: "Cairo", sans-serif;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #0077b6;
+  overflow: scroll;
+}
+
+.active-bg {
+  background-color: #a7c957;
+}
+
+a.sidebar-link {
+  padding: 0.625rem 1.625rem;
+  color: black;
+  border: 1px solid black;
+  position: relative;
+  display: block;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.points-card {
+  width: 262px;
+  height: 173px;
+  background-color: white;
+  /* border-radius: 32px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.points-card-avatar {
+  position: absolute;
+  top: -30px;
+  border-radius: 50%;
+  left: 35%;
+  background-color: white;
+  padding: 20px;
+}
+
+.form-label {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.form-input {
+  background-color: #eef1f5;
+  height: 50px;
+  border: none;
+  padding-right: 10px;
+  border-radius: 12px;
+}
+
+.invoice {
+  border-radius: 21px;
+  border: 1px solid black;
+  background-color: #f0f2f7;
+}
+
+.qr-container {
+  width: 122px;
+  height: 127px;
+  border: 3px solid #a7c957;
+  border-radius: 15px;
+  margin: 10px 0px 10px 0px;
+}
+
+.main_search {
+  width: auto;
+}
+
+@media (max-width: 500px) {
+  .img-cont img {
+    max-width: 5rem;
+  }
+
+  .main_search {
+    width: 100%;
+  }
+}
+
+.search-input {
+  height: 46px;
+  max-width: 360px;
+  width: 100%;
+  border: 1px solid #707070;
+  padding: 8px 16px 8px 16px;
+  border-radius: 200px;
+}
+
+.accordion-button::after {
+  margin-right: inherit;
+  margin-left: inherit !important;
+}
+
+button {
+  font-family: "Cairo", sans-serif !important;
+
+}
+
+
+::placeholder {
+  color: #cecece !important;
+}
+
+li {
+  list-style: none;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+  background-color: #EEF1F5 !important;
+  border-radius: 20px !important;
+  height: 45.95px !important;
+
+}
+
+.react-tel-input.form-control.phone-input-class {
+  padding: 0 !important;
+  border-radius: 20px !important;
+
+}
+
+.react-tel-input .flag-dropdown {
+  border-radius: 20px 0 0 20px !important;
+
+}
+
+.form-control {
+  background-color: #EEF1F5 !important;
+  border-radius: 20px !important;
+  height: 45.95px !important;
+}
+
+.custom_input {
+  height: 120px !important;
+
+}
+
+.main_button {
+  background-color: #0077B6 !important;
+  border: 1px solid #0077B6 !important;
+
+}
+
+.main_button:hover {
+  background-color: transparent !important;
+  color: black !important;
+  border: 1px solid #0077B6;
+
+}
+
+.main_card:hover {
+  background-color: #0077B6 !important;
+  color: white !important;
+}
+
+.main_card:hover p {
+  color: white !important;
+}
+
+.card-animation {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-animation:hover {
+  transform: scale(1.05);
+  /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); */
+}
+
+@media (max-width:770px) {
+
+  .text_small {
+    font-size: 12px !important;
+  }
+
+  .profile_setting {
+    width: 100% !important;
+
+  }
+  .imgFooter{
+    top: 70% !important;
+    left: -0px !important;
+
+  }
+  .imgFooter img{
+    width: 50% !important;
+
+  }
+}
+.menu_mobile{
+  position: absolute;
+  left: 0;
+
+}
+
+html[dir="ltr"] .menu_mobile {
+  position: absolute;
+  left: 70% !important;
+}
+.details_invoice{
+  width: 35% !important
+}
+@media (max-width:770px) {
+  .details_invoice{
+    width: 100% !important
+  }
+}
+
+
+

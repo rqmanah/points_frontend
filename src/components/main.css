@@ -1,0 +1,32 @@
+#main {
+  margin-top: 60px;
+  padding: 30px 20px;
+  transition: all 0.3s;
+  /* background-color: #f3f7fd; */
+  height:  calc(100vh - 128px);
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #aab7cf transparent;
+}
+#main::webkit-scrollbar {
+  width: 2px;
+  height: 3px;
+  background-color: #FCFCFC;
+}
+
+#main::webkit-scrollbar-thumb {
+  background-color: #aab7cf;
+}
+#main2 {
+  direction: rtl;
+  margin-top: 60px;
+  padding: 20px 10px;
+  transition: all 0.3s;
+  height: auto;
+  background-color: #f3f7fd;
+}
+@media (max-width: 1199) {
+  #main {
+    padding: 20px;
+  }
+}

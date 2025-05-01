@@ -1,0 +1,123 @@
+const security = [
+  {
+    name: "احمد ابراهيم",
+    actionType: "delete user",
+    actionDate: "10/11/2024",
+    actionDescription: "قام بحذف مستخدم",
+  },
+  {
+    name: "محمد علي",
+    actionType: "update user",
+    actionDate: "11/11/2024",
+    actionDescription: "قام بتحديث بيانات مستخدم",
+  },
+  {
+    name: "خالد أحمد",
+    actionType: "create user",
+    actionDate: "12/11/2024",
+    actionDescription: "قام بإنشاء مستخدم جديد",
+  },
+  {
+    name: "سعيد محمود",
+    actionType: "delete user",
+    actionDate: "13/11/2024",
+    actionDescription: "قام بحذف مستخدم",
+  },
+  {
+    name: "يوسف عبد الله",
+    actionType: "reset password",
+    actionDate: "14/11/2024",
+    actionDescription: "قام بإعادة تعيين كلمة مرور",
+  },
+  {
+    name: "فاطمة خالد",
+    actionType: "update user",
+    actionDate: "15/11/2024",
+    actionDescription: "قامت بتحديث بيانات مستخدم",
+  },
+  {
+    name: "علي حسين",
+    actionType: "create user",
+    actionDate: "16/11/2024",
+    actionDescription: "قام بإنشاء مستخدم جديد",
+  },
+  {
+    name: "مريم عبد الرحمن",
+    actionType: "delete user",
+    actionDate: "17/11/2024",
+    actionDescription: "قامت بحذف مستخدم",
+  },
+  {
+    name: "طارق محمد",
+    actionType: "reset password",
+    actionDate: "18/11/2024",
+    actionDescription: "قام بإعادة تعيين كلمة مرور",
+  },
+  {
+    name: "نورة أحمد",
+    actionType: "update user",
+    actionDate: "19/11/2024",
+    actionDescription: "قامت بتحديث بيانات مستخدم",
+  },
+  {
+    name: "بدر عبد الله",
+    actionType: "create user",
+    actionDate: "20/11/2024",
+    actionDescription: "قام بإنشاء مستخدم جديد",
+  },
+  {
+    name: "ليلى يوسف",
+    actionType: "delete user",
+    actionDate: "21/11/2024",
+    actionDescription: "قامت بحذف مستخدم",
+  },
+  {
+    name: "ماجد فهد",
+    actionType: "reset password",
+    actionDate: "22/11/2024",
+    actionDescription: "قام بإعادة تعيين كلمة مرور",
+  },
+  {
+    name: "سارة عبد العزيز",
+    actionType: "update user",
+    actionDate: "23/11/2024",
+    actionDescription: "قامت بتحديث بيانات مستخدم",
+  },
+  {
+    name: "حسن علي",
+    actionType: "create user",
+    actionDate: "24/11/2024",
+    actionDescription: "قام بإنشاء مستخدم جديد",
+  },
+  {
+    name: "جميلة يوسف",
+    actionType: "delete user",
+    actionDate: "25/11/2024",
+    actionDescription: "قامت بحذف مستخدم",
+  },
+  {
+    name: "أحمد عبد الله",
+    actionType: "reset password",
+    actionDate: "26/11/2024",
+    actionDescription: "قام بإعادة تعيين كلمة مرور",
+  },
+  {
+    name: "عبير محمد",
+    actionType: "update user",
+    actionDate: "27/11/2024",
+    actionDescription: "قامت بتحديث بيانات مستخدم",
+  },
+  {
+    name: "نواف خالد",
+    actionType: "create user",
+    actionDate: "28/11/2024",
+    actionDescription: "قام بإنشاء مستخدم جديد",
+  },
+  {
+    name: "منى عبد الرحمن",
+    actionType: "delete user",
+    actionDate: "29/11/2024",
+    actionDescription: "قامت بحذف مستخدم",
+  },
+];
+export default security;

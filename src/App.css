@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+  --primary: #4154f1;
+  --second: #717ff5;
+  --bgColor: #f6f9ff;
+}
+* {
+  font-family: "Cairo", sans-serif;
+}
+.ffcairo {
+  font-family: "Cairo", sans-serif;
+}
+.rtl {
+  direction: rtl;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", "sans-serif";
+  color: #444444;
+  background-color: #fff;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: var(--second);
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+}
+.text-violet {
+  color: #717ff5;
+}
+
+.active-page{
+  background-color:#A7C957 !important;
+  color:#fff !important;
+}
+
+.positive-note{
+  color:#fff !important;
+  background-color: #428043;
+}
+
+.negative-note{
+  color:#fff !important;
+  background-color: #FD2323;
+}
+
+.positive,.negative{
+  color:#201E1E;
+  margin-bottom: 0;
+}
+.notes-parent{
+  background-color: #BCBCBC;
+}
+
+.error{
+  color:#C34646;
+}
+
+.addButton{
+  height: 30px;
+}
+
+.input-group .form-control {
+  border-left: none;
+}
+.modal .custom-modal-width{
+  width: 75% !important;
+  max-width: 75%;
+  max-height: 75%;
+  margin-top: 100px;
+  overflow-y: auto ;
+}
+
+.selected-avatar{
+  border: 4px solid #0077B6;
+}
+.avatar{
+  width: 120px;
+  height: 120px;
+}
+.danger-hover:hover{
+  color:#fff !important;
+}
+
+.reports{
+  display: flex;
+  justify-content: space-evenly;
+}
+.report{
+  background-color: #fff;
+  width: 30%;
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
+}
+.report-number{
+  font-size: 33px;
+}
+.report-image{
+  position: absolute;
+  top:-40px;
+  width:100%;
+}
+.report-image img{
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+}
+.minus-class{
+  margin-top: 11px;
+}
+.redirect-btn:hover{
+  color:#7777ab !important;
+}
+.bg-gray{
+  background-color: #d7d5d5 !important;
+}
+.bg-gray:hover{cursor: pointer;}
